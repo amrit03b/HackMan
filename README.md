@@ -1,0 +1,2 @@
+# HackMan
+HackMan is a Hackathon Management Website which can be used by companies and communities to host a hackathon and other people to discover and participate in them. HackMan is very easy to use due to its simple UI. This project is now at a very beginner phase as only frontend of the website is made till now due to the time limit of the hackathon. In future we strive to make it a full fledged website and increase the funcationality. 
