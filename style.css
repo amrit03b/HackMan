@@ -10,13 +10,19 @@ body, html{
 }
 
 .container{
-  margin: 150px auto;
+  margin: 90px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
 }
+h3{
+  margin: 90px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
 .card{
   margin: 20px;
 }
