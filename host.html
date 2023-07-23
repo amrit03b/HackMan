@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Management</title>
+  <link rel="stylesheet" href="stylehost.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <section id="create-hackathon">
+        <h2>Host a Hackathon</h2>
+        <form id="hackathon-form">
+          <div class="form-group">
+            <label for="hackathon-name">Hackathon Name:</label>
+            <input type="text" id="hackathon-name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="thumbnail">Hackathon Thumbnail:</label>
+            <input type="file" id="thumbnail" accept="image/*">
+          </div>
+
+          <button type="submit">Create Hackathon</button>
+        </form>
+      </section>
+
+      <section id="hackathons-list">
+        <h2>List of Hackathons created by you</h2>
+        <ul id="hackathon-list">
+          <!-- Hackathons will be dynamically added here -->
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
